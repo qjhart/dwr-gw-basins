@@ -1,0 +1,15 @@
+<OGRVRTDataSource>
+ <OGRVRTWarpedLayer>
+  <OGRVRTLayer name="groundwater_basins">
+    <SrcDataSource relativeToVRT="1">I08_B118_CA_GroundwaterBasins.shp</SrcDataSource>
+    <SrcLayer>I08_B118_CA_GroundwaterBasins</SrcLayer>
+    <LayerSRS>epsg:3857</LayerSRS>
+    <Field name="id" src="Basin_ID" type="STRING"/>
+    <Field name="subbasin" src="Basin_Subb" type="STRING"/>
+    <Field name="name" src="Basin_Name" type="STRING"/>
+    <Field name="subbasin_name" src="Subbasin_N" type="STRING"/>
+  </OGRVRTLayer>
+<TargetSRS>epsg:3310</TargetSRS>
+</OGRVRTWarpedLayer>
+
+</OGRVRTDataSource>
