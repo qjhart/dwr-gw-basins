@@ -11,5 +11,5 @@ Updated (7/27/17) - 2016 Bulletin 118 Interim Update
 
 
 # Releases
-- v1.0.0 - Bulletin 118 Basins (2003 Version)
-- v2.0.0 - Bulletin 118 Basins (2016 Version)
+- [v1.0.0 - Bulletin 118 Basins (2003 Version)](https://github.com/ucd-cws/dwr-gw-basins/releases/tag/v1.0.0)
+- [v2.0.0 - Bulletin 118 Basins (2016 Version)](https://github.com/ucd-cws/dwr-gw-basins/releases/tag/v2.0.0)
