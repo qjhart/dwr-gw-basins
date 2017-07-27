@@ -8,3 +8,8 @@ were part of the effort to publish the bulletin. The basin/subbasin descriptions
 
 
 Updated (7/27/17) - 2016 Bulletin 118 Interim Update
+
+
+# Releases
+- v1.0.0 - Bulletin 118 Basins (2003 Version)
+- v2.0.0 - Bulletin 118 Basins (2016 Version)
