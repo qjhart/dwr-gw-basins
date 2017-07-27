@@ -4,7 +4,7 @@ include configure.mk
 
 schema:=public
 
-orig.shp:=I08_B118_CA_GroundwaterBasins.shp
+orig.shp:=i08_B118_CA_GroundwaterBasins.shp
 
 DEFAULT: geojson/groundwater_basins.geojson shp
 
@@ -21,7 +21,7 @@ shp: src/groundwater_basins.vrt
 # While we may store the original data in the GITHUB repository, we
 # also want to show how we got the data.
 src/${orig.shp}:zip:=src/B118_GW_Basins.zip
-src/${orig.shp}:url:=http://www.water.ca.gov/groundwater/bulletin118/maps/B118_GW_Basins.zip
+src/${orig.shp}:url:=http://www.water.ca.gov/groundwater/sgm/files/B118_CA_GroundwaterBasins.zip
 src/${orig.shp}:
 	[[ -f ${zip} ]] || curl ${url} > ${zip}
 	unzip -d src -u ${zip}
@@ -46,4 +46,4 @@ clean:
 	rm -rf configure.mk shp geojson
 
 clean-all: clean
-	rm src/B118* src/I08.*
+	rm src/i08* src/I08*

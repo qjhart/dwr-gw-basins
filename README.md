@@ -7,3 +7,4 @@ Online technical descriptions and GIS compatible maps of 515 groundwater basins 
 were part of the effort to publish the bulletin. The basin/subbasin descriptions include information about the geology, groundwater quantity and quality, and current groundwater management practices in the basins.
 
 
+Updated (7/27/17) - 2016 Bulletin 118 Interim Update
